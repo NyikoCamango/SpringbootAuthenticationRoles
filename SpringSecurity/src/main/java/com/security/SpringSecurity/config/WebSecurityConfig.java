@@ -2,6 +2,8 @@ package com.security.SpringSecurity.config;
 
 
 import com.security.SpringSecurity.security.jwt.AuthEntryPointJwt;
+import com.security.SpringSecurity.security.jwt.AuthTokenFilter;
+import com.security.SpringSecurity.services.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
