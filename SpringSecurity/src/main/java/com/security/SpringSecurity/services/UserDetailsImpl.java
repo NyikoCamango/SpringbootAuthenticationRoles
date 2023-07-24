@@ -1,6 +1,7 @@
 package com.security.SpringSecurity.services;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.security.SpringSecurity.models.User;
 import com.security.SpringSecurity.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
